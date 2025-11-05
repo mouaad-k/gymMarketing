@@ -265,15 +265,15 @@ export default function App () {
     <div className="flex flex-col md:flex-row items-center justify-center gap-8 text-lg font-medium">
       <div className="flex items-center gap-3">
         <span className="text-pink-600 text-2xl">📞</span>
-        <a href="tel:+212600000000" className="hover:text-pink-600 transition">
-          +212 6 00 00 00 00
+        <a href="tel:+212710420164" className="hover:text-pink-600 transition">
+          +212 710-420164
         </a>
       </div>
 
       <div className="flex items-center gap-3">
         <span className="text-pink-600 text-2xl">✉️</span>
         <a href="mailto:contact@gymmarketing.ma" className="hover:text-pink-600 transition">
-          contact@gymmarketing.ma
+          bitycelia@gmail.com
         </a>
       </div>
     </div>
