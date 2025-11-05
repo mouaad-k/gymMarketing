@@ -8,8 +8,8 @@ export default function App () {
       <header className="fixed top-0 w-full bg-white/80 backdrop-blur-md shadow-sm z-50">
         <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <div className="w-12 h-12 rounded-xl bg-gradient-to-tr from-pink-500 to-orange-400 flex items-center justify-center text-white font-bold text-lg shadow">
-              AB
+            <div className="w-12 h-12 rounded-xl flex items-center justify-center text-white font-bold text-lg shadow">
+              <img src="/logo.png" alt="" />
             </div>
             <div>
               <h1 className="text-xl font-bold">Gym Marketing </h1>
@@ -21,12 +21,6 @@ export default function App () {
           <nav className="hidden md:flex gap-6 text-sm text-gray-700 font-medium">
             <a href="#services" className="hover:text-pink-600 transition">
               Services
-            </a>
-            <a href="#how" className="hover:text-pink-600 transition">
-              Processus
-            </a>
-            <a href="#success" className="hover:text-pink-600 transition">
-              Témoignages
             </a>
             <a href="#contact" className="hover:text-pink-600 transition">
               Contact
@@ -57,10 +51,10 @@ export default function App () {
               Audit Gratuit
             </a>
             <a
-              href="#how"
+              href="#services"
               className="px-6 py-3 bg-white border border-pink-200 text-pink-600 font-semibold rounded-lg hover:bg-pink-50 transition"
             >
-              Voir le Processus
+              Voir nos services
             </a>
           </div>
         </div>
@@ -163,7 +157,7 @@ export default function App () {
       </p>
       <p className="text-gray-700 leading-relaxed">
         Aujourd’hui, ma mission est d’aider les salles de sport et les entrepreneurs du fitness à renforcer leur visibilité,
-        attirer une clientèle de qualité et faire passer leur marque à un niveau supérieur — en France, au Maroc, 
+        attirer une clientèle de qualité et faire passer leur marque à un niveau supérieur  en France, au Maroc, 
         et à l’international.
         <span className="block mt-4 font-semibold text-pink-600">
           Ma vision : créer une nouvelle génération de gyms performants et reconnus mondialement.
@@ -182,7 +176,7 @@ export default function App () {
   </div>
 </section>
 
-<section id="reviews" className="py-20 px-6 bg-gradient-to-br from-pink-50 to-orange-100">
+<section id="success" className="py-20 px-6 bg-gradient-to-br from-pink-50 to-orange-100">
   <div className="max-w-7xl mx-auto text-center">
     <h3 className="text-4xl font-bold text-pink-600 mb-6">Nos clients</h3>
 
@@ -279,7 +273,7 @@ export default function App () {
     </div>
 
     <div className="mt-10 text-gray-600 text-sm">
-      <p>Basé au Maroc 🇲🇦 — Disponible pour les projets en France et à l'international</p>
+      <p>Basé au Maroc 🇲🇦  Disponible pour les projets en France et à l'international</p>
     </div>
   </div>
 </section>
